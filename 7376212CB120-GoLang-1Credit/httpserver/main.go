@@ -12,15 +12,15 @@ func main() {
 	})
 
 	http.HandleFunc("/name", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Harish Raj")
+		fmt.Fprintf(w, "Karthick")
 	})
-	
+
 	http.HandleFunc("/regnumber", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "7376212CB120")
+		fmt.Fprintf(w, "7376212Al123")
 	})
 
 	http.HandleFunc("/department", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "CSBS")
+		fmt.Fprintf(w, "AIML")
 	})
 
 	http.HandleFunc("/color", func(w http.ResponseWriter, r *http.Request) {
